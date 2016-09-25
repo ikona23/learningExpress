@@ -1,0 +1,12 @@
+<div class="entry">
+  {{#if author}}
+    <h1>{{name}} {{surname}} {{author}}</h1>
+  {{/if}}
+</div>
+{{!-- <nav>{{include about.hbs}}</nav> --}}
+
+<div class="ntry">
+  {{#unless license}}
+  <h3 class="warning">WARNING: This highly psychedelic content!</h3>
+  {{/unless}}
+</div>
